@@ -14,12 +14,12 @@ public class MyCanvas extends JPanel implements ActionListener{
     public MyCanvas () {
         setPreferredSize(new Dimension(400,300));
         setBackground(Color.GRAY);
-        Timer timer = new Timer(60, this);
+        Timer timer = new Timer(80, this);
         timer.start();
-        cars.add(new Car(10, 250, 2, 0, Color.RED));
-        cars.add(new Car(10, 200, 3, 0, Color.BLUE));
-        cars.add(new Car(10, 150, 4, 0, Color.GREEN));
-        cars.add(new Car(10, 100, 5, 0, Color.ORANGE));
+        cars.add(new Car(10, 250, 2, 0, Color.RED, 60,30));
+        cars.add(new Car(10, 200, 3, 0, Color.BLUE, 50, 25));
+        cars.add(new Car(10, 150, 4, 0, Color.GREEN, 40,20));
+        cars.add(new Car(10, 100, 5, 0, Color.ORANGE, 30, 15) );
     }
     @Override
     protected void paintComponent(Graphics g){

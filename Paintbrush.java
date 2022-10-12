@@ -8,11 +8,9 @@ public class Paintbrush {
     private static final Color COLOR_TRUNK_TREE = new Color(50,27,30);
     private static final Color COLOR_TREE = new Color(16,46,60);
 
-
     public Paintbrush(Graphics g){
         this.g = g;
     }
-
     public void drawSky() {
         g.setColor(new Color (127,233,245));
         g.fillRect(0,0, 400, 100);
@@ -20,7 +18,6 @@ public class Paintbrush {
         g.setColor(Color.YELLOW);
         g.fillOval(40, 40, 20, 20);
     }
-
     public void drawMountains() {
         Polygon triangle = new Polygon();
         triangle.addPoint(15,120);
@@ -29,7 +26,6 @@ public class Paintbrush {
         g.setColor(COLOR_BROWN);
         g.fillPolygon(triangle);
     }
-
     public void drawTree() {
         int start = 200;
         int top = 50;

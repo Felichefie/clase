@@ -1,0 +1,38 @@
+
+Subí a Git un ejemplo de como se debe organizar la tarea, esta en la dirección:
+
+Se debe de crear una class y no solo un método para dibujar los vehículos. De las lecciones anteriores coloque la class Vehicle, la cual tiene las propiedades y métodos comunes a todos los vehiculos.
+
+Las propiedades del vehiculo considero que pueden ser:
+velocidad
+color
+posición
+
+Los métodos y propiedades comunes a todos los vehículos considero que pueden ser:
+Consultar/asignar el color
+Consultar/asignar su posición
+Consultar/asignar la velocidad
+Mover el vehiculo
+
+Tambien considere adecuado 2 constructores. Uno de los constructores recibe un Dot y el otro las coordenadas
+
+Posición
+Anteriormente se considero la posición como una clase. Se diseña la clase posición que almacena la posición del vehículo como u par de dats X y Y que representan la ubicación del vehículo
+Las propiedades de la posción considero que pueden ser:
+La coordenada x
+La coordenada y
+
+Los métodos y propiedades comunes a todos los vehículos considero que pueden ser:
+Consultar/asignar la posición de x
+Consultar/asignar la posición de y
+Comparar 2 puntos
+Sumar el valor de la posición x
+Sumar el valor de la posición y
+Regresar el punto.
+
+Ahora con estas 2 class podemos generar la class auto que va a heredar las propiedades de vehículo.
+
+
+
+
+

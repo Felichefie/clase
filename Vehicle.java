@@ -4,7 +4,7 @@ public class Vehicle {
     private int speedX, speedY;
     private Color color;
     private Dot dot;
-
+    
     public Vehicle (int x, int y, int speedX, int speedY, Color color){
         dot = new Dot(x,y);
         this.speedX = speedX;
